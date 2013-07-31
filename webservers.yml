@@ -1,0 +1,7 @@
+---
+
+- hosts: localhost
+
+  tasks:
+    - debug: msg={{ one_var }}
+    - debug: msg={{ other_var }}

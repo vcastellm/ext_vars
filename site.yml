@@ -1,0 +1,10 @@
+---
+
+
+- hosts: all
+
+  vars_files:
+    - ./{{ dynamic }}_ok.yml
+    - ./external_ko.yml
+
+- include: webservers.yml

@@ -1,0 +1,1 @@
+localhost dynamic=external ansible_connection=local
